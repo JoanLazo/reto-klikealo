@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   padding: 0%;
   margin: 0%;
@@ -78,8 +79,8 @@ form {
   letter-spacing: 1px;
 }
 
-.text-30 {
-  font-size: 30px;
+.text-50 {
+  font-size: 50px;
 }
 
 .text-20 {
@@ -94,12 +95,16 @@ form {
   font-size: 12px;
 }
 
-.text-18 {
-  font-size: 18px;
+.text-16 {
+  font-size: 16px;
 }
 
 .text-15 {
   font-size: 15px;
+}
+
+.text-17 {
+  font-size: 17px;
 }
 
 .Montserrat-Black {
@@ -143,6 +148,18 @@ form {
   border: transparent;
   font-size: 18px;
   cursor: pointer;
+}
+
+.ancla {
+  color: #f8f8f8;
+  -webkit-text-decoration: #f8f8f8;
+          text-decoration: #f8f8f8;
+}
+
+.ancla:hover {
+  color: #f8f8f8;
+  -webkit-text-decoration: #f8f8f8;
+          text-decoration: #f8f8f8;
 }
 
 .input-text {
@@ -333,17 +350,12 @@ input[type=radio]:checked ~ .check::before {
   margin-top: 50px;
 }
 
-.pixel-derecho {
-  width: 250px;
-  margin-left: 25.5rem;
-}
-
 .margin-b {
   margin-bottom: 100px;
   margin-left: 0%;
 }
 
-.bg-pixel {
+.bg-pixel-derecho {
   background-image: url("../../exportados/recursos_klk_landing-40.png");
   background-position: top;
   background-position-y: 40px;
@@ -381,5 +393,82 @@ input[type=radio]:checked ~ .check::before {
 .margin-div-text-ecommerce {
   margin-left: 18rem;
   margin-top: 12px;
+}
+
+.img-clikeago {
+  width: 350px;
+  margin-left: 25px;
+}
+
+.img-empresaria {
+  width: 500px;
+  margin-top: 3rem;
+}
+
+.div-margin-left {
+  margin-left: 20%;
+}
+
+.img-text-icons {
+  width: 280px;
+  margin-left: 3rem;
+}
+
+.bg-pixel-izquierdo {
+  background-image: url("../../exportados/recursos_klk_landing-41.png");
+  background-position: center;
+  background-position-y: 150px;
+  background-position-x: 0.2px;
+  background-size: 280px 420px;
+  background-repeat: no-repeat;
+}
+
+.bg-seccion-6 {
+  border-top: #dbdbdb solid 1px;
+  background-color: #f8f8f8;
+  width: 98.6vw;
+  height: 296px;
+  background-size: 100vw 100px;
+}
+
+.img-landings {
+  width: 600px;
+  padding-bottom: 1rem;
+  float: top;
+  height: 310px;
+}
+
+.img-nosotros-morado {
+  width: 200px;
+}
+
+.div-sección-6 {
+  margin-left: 15%;
+  margin-top: 60px;
+}
+
+.btn-cotizar-2 {
+  padding: 6px 60px 6px 60px;
+  border: transparent;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.bg-morado-mayor {
+  background-image: url("../../exportados/recursos_klk_landing-05.png");
+  width: 98.6vw;
+  height: 320px;
+  background-size: 1366px 320px;
+}
+
+.img-next {
+  width: 20px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.mg-top-sec-7 {
+  margin-top: 4rem;
+  margin-left: 5%;
 }
 /*# sourceMappingURL=style.css.map */
