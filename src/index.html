@@ -12,7 +12,7 @@
 </head>
 <body>
   <!-- primera vista/ seccion 1 -->
-    <div class="container-fluid bg-dark">
+    <div class="container-fluid">
         <div class="row">
             <div class="color-bg-morado"> 
                <div class="d-flex flex-column flex-lg-row flex-md-row flex-sm-column flex-xs-column">
@@ -25,7 +25,8 @@
                                 <div class="d-flex flex-column">
                                   
                                   <img class="img-text-white margin-text" src="../exportados/recursos_klk_landing-38.png" alt="barra">
-                                  <div class="text-cliente justify-content-center align-items-center">
+                                  <!-- seccion de texto en web -->
+                                  <div class="text-cliente">
                                       <p class="color-blanco Poppins-Bold text-center">NUESTROS CLIENTES</p>
                                     </div>
                                 </div>
@@ -81,62 +82,19 @@
                                              
                                         <button type="submit" class="color-bg-rosa btn-cotizar color-blanco Montserrat-Black">COTIZAR</button>
                                       </form>
+                                      
                         </div>
                 </div>
+                <!-- seccion de texto en celular -->
+                <div class="text-cliente-2">
+                    <p class="color-blanco Poppins-Bold text-center">NUESTROS CLIENTES</p>
+                  </div>
             </div>
         </div>
            
                 
     </div>
-<!-- Formulario que se mostrara en celular -->
-<div class="col-sm-2 col-xs-2 formulario-margin bg-tienda off">
-    <p class="text-25 color-blanco Poppins-Regular text-center">¡EMPIEZA <span class="text-25 color-blanco Poppins-Bold">HOY MISMO!</span></p>
-        <form class="d-flex flex-column color-bg-celeste needs-validation justify-content-center" novalidate>
-               
-            <div class="form-group">
-                  <input type="text" class="form-control input-text mb-2" id="validationCustom01" placeholder="*Nombre" required>
-                  <div class="invalid-feedback">
-                         Por favor completar este campo.
-                      </div>
-              
-               
-                        <input type="text" class="form-control input-text mb-2" id="validationCustom02" placeholder="*Empresa" required>
-                        <div class="invalid-feedback">
-                              Por favor completar este campo.
-                            </div>
-                      
-                     
-                            
-                            <input type="text" class="form-control input-text mb-2" id="validationCustom03" placeholder="*Mail" required>
-                            <div class="invalid-feedback">
-                                    Por favor completar este campo.
-                                </div>
-                         
-                         
-                                <input type="text" class="form-control input-text mb-2" id="validationCustom04" placeholder="*Teléfono" required>
-                                <div class="invalid-feedback">
-                                        Por favor completar este campo.
-                                    </div>
-                              
-                              <p class="color-blanco Poppins-Bold text-15 text-center space-text">SOLUCIÓN E-COMMERCE:</p>
-                <div class="form-group form-check d-flex justify-content-center my-0">
-                  
-                        <div class="form-check form-check-inline space-label-k360 flex-column-reverse ">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required> 
-                                <label class="form-check-label" for="inlineRadio1"><img class="mb-3 img-label-k360" src="../exportados/recursos_klk_landing-26.png" alt="k360"></label>
-                             <p class="color-blanco Poppins-Bold text-12">EMPRESAS</p>
-                              </div>
-                              <div class="form-check form-check-inline space-label-go flex-column-reverse">
-                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required>
-                                <label class="form-check-label" for="inlineRadio2"><img class="img-label-go" src="../exportados/recursos_klk_landing-27.png" alt="klikealoGo"></label>
-                             <P class="color-blanco Poppins-Bold text-12 mb-4">PYMES</P>
-                              </div>
-                </div>
-             </div>
-                     
-                <button type="submit" class="color-bg-rosa btn-cotizar color-blanco Montserrat-Black space-text">COTIZAR</button>
-              </form>
-        </div>
+
 
         <!--sección 2 / carrucel -->
         <div class="container-fluid color-bg-gris-claro">
@@ -171,31 +129,30 @@
          <!-- seccion 3-->
          <div class="container-fluid margin-top pb-5 bg-pixel-derecho">
             <div class="row">
-              <div class="d-flex flex-column-reverse flex-lg-row  flex-md-row flex-sm-column-reverse flex-xs-column-reverse justify-content-center">
+              <div class="d-flex flex-column-reverse flex-lg-row  flex-md-row flex-sm-column-reverse flex-xs-column-reverse justify-content-center col-12">
   
-                  <div class="col-lg-6 ">
+                  <div class="col-lg-6 d-flex justify-content-center  ">
                       <img class="img-empresario" src="../exportados/recursos_klk_landing-25.png" alt="empresario">
                  </div>
 
                 
 
-                 <div class="col-lg-6 "> 
-                      <div class="d-flex flex-row margin-b ">
-                          <div class="">
+                 <div class="col-lg-6  d-flex justify-content-center"> 
+                     
+                          <div class="d-flex flex-column margin-b justify-content-center">
+                            <!-- imagen para web -->
                               <img class="img-k360" src="../exportados/recursos_klk_landing-09.png" alt="k360">
-                             
-                                <p class="col-7 text-justify color-gris-oscuro Montserrat-Regular text-15 text-justify">Te asesoramos con procesos y metodologias  especializadas para <span class="color-gris-oscuro Montserrat-Bold text-15 text-justify">crear una plataforma que se adapte a tus necesidades.</span> </p>
+                              <!-- imagen para celular -->
+                              <img class="img-k360-c" src="../exportados/recursos_klk_landing-11.png" alt="k360">
+
+                                <p class="text-justify color-gris-oscuro Montserrat-Regular text-15">Te asesoramos con procesos y metodologias  especializadas para <span class="color-gris-oscuro Montserrat-Bold text-15 text-justify">crear una plataforma que se adapte a tus necesidades.</span> </p>
                             
                             <img class="img-lista-texto" src="../exportados/recursos_klk_landing-43.png" alt="">
                             <img class="img-cms" src="../exportados/recursos_klk_landing-21.png" alt="">
                        </div>
-                   
-                   
-                    </div>
-                     
+    
                  </div>
-
-                 
+        
               </div>
                   
               <div class="d-flex justify-content-center align-content-end align-items-end mt-3 mg-text-left">
@@ -208,13 +165,13 @@
          <div class="container-fluid my-2">
             <div class="row">
               <div class="bg-morado-menor">
-                    <div class="d-flex flex-column flex-lg-row flex-md-row justify-content-sm-center justify-content-xs-center">
+                    <div class="d-flex flex-column flex-lg-row flex-md-row col-12 justify-content-xs-center">
                       <div class="col-lg-4 margin-div-text-ecommerce">
                           <img class="img-text-ecommerce" src="../exportados/recursos_klk_landing-37.png" alt="imagen-morada">
                           <p class="col-12 color-blanco Poppins-Regular">Nuestro expertise nos permite posicionarnos como un referente importante en el sector</p>
                       </div>
-                     <div class=" col-lg-6 d-flex align-items-center">
-                        <button class="btn-cotizar color-bg-rosa color-blanco Poppins-Bold margin-btn"><a class="ancla" href="#cotizar">COTIZAR</a></button>
+                     <div class="col-lg-6 d-flex align-items-center justify-content-xs-center">
+                        <button class="btn-cotizar-e color-bg-rosa color-blanco Poppins-Bold margin-btn"><a class="ancla" href="#cotizar">COTIZAR</a></button>
                      </div>
                       
                     </div>
@@ -226,11 +183,13 @@
           <!-- seccion 5 /Diseñado para pymes-->
          <div class="container-fluid margin-top pb-5 bg-pixel-izquierdo">
             <div class="row">
-              <div class="d-flex flex-column flex-lg-row  flex-md-row flex-sm-column flex-xs-column justify-content-center">
+              <div class="d-flex flex-column flex-lg-row  flex-md-row flex-sm-column flex-xs-column justify-content-center col-11">
   
-                      <div class="div-margin-left">
-                          
+                      <div class="d-flexs div-margin-left justify-content-center">
+                          <!-- para web -->
                               <img class="img-clikeago" src="../exportados/recursos_klk_landing-08.png" alt="ClikeaGo">
+                        <!-- para celular -->
+                              <img class="img-clikeago-c" src="../exportados/recursos_klk_landing-10.png" alt="ClikeaGo">
                              
                               <div class="col-10">
                                 <p class="text-justify color-gris-oscuro Montserrat-Regular text-16 text-seccion-5">Ingresa al mundo digital y vende por internet de forma segura,<span class="color-gris-oscuro Montserrat-Bold text-16 text-justify"> rápida y económica.</span> </p>
@@ -244,7 +203,7 @@
                             </div>
                  </div>
                  
-                 <div class="d-flex">  
+                 <div class="d-flex justify-content-xs-center justify-content-sm-center">  
                     <img class="img-empresaria" src="../exportados/recursos_klk_landing-24.png" alt="información">
                     </div>
 
@@ -260,11 +219,11 @@
           <!-- seccion 6 -->
           <div class="container-fluid bg-seccion-6">
             <div class="row">
-                    <div class="d-flex flex-row flex-lg-row flex-md-row">
+                    <div class="d-flex flex-row flex-lg-row flex-md-row col-12">
                       
-                        <div class="col-lg-3  flex-column justify-content-start div-sección-6">
+                        <div class="col-lg-3 col-6 flex-column justify-content-start div-sección-6">
                           <img class="img-nosotros-morado" src="../exportados/recursos_klk_landing-39.png" alt="">
-                          <p class="Poppins-Regular text-15 color-gris-oscuro mt-3">Nuestro objetivo es que tus ventas aumentan y que tu canal online sea una fuente de ingresos estable y <span class="Poppins-Bold text-15 color-gris-oscuro">rentable para tu negocio.</span> </p>
+                          <p class="Poppins-Regular text-15  color-gris-oscuro mt-3">Nuestro objetivo es que tus ventas aumentan y que tu canal online sea una fuente de ingresos estable y <span class="Poppins-Bold text-15 color-gris-oscuro">rentable para tu negocio.</span> </p>
                             <button class="btn-cotizar-2 color-bg-rosa color-blanco Poppins-Bold"><a class="ancla" href="#cotizar">COTIZAR</a></button>
                          </div>
                           
@@ -273,7 +232,7 @@
                           
                       </div>
                       <!-- Imagen para celular -->
-                      <div class="col-sm-3 col-xs-3 off">
+                      <div class="col-6">
                           <img class="img-landings-2" src="../exportados/recursos_klk_landing-07.png" alt="img-landing">
                       </div>
 
@@ -289,9 +248,9 @@
                     <img class="img-next" src="../exportados/recursos_klk_landing-35.png" alt="img-netx">
 
                     <div class="d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="color-blanco text-50 Montserrat-ExtraBold">INTEGRACIONES</h1>
+                        <h1 class="color-blanco text-integraciones Montserrat-ExtraBold">INTEGRACIONES</h1>
                         <span class="Montserrat-Black color-blanco mb-3">__________</span>
-                        <p class="col-lg-10 color-blanco text-20 Montserrat-Regular">Nuestro K-Bridge (Middleware) es un desarrollo propio de gestión en eCommerce que facilita las integraciones con otras plataformas y con tu ERP/ CRM.</p>
+                        <p class="col-lg-10 color-blanco text-carrusel Montserrat-Regular">Nuestro K-Bridge (Middleware) es un desarrollo propio de gestión en eCommerce que facilita las integraciones con otras plataformas y con tu ERP/ CRM.</p>
                         <p class="color-blanco text-20 Montserrat-Black text-50">. . .</p>
                     </div>
                     
@@ -306,14 +265,14 @@
                 <div class="row">
                   <div class="d-flex flex-row col-12">
                     
-                     <div class="col-lg-4  col-sm-6 col-xs-6">
+                     <div class="col-lg-4  col-sm-4 col-xs-4">
                         <img class="img-logo-1" src="../exportados/recursos_klk_landing-01.png" alt="logo-1">
                      </div>
                      
-                     <div class="d-flex flex-row col-lg-8 col-sm-6 col-xs-6 justify-content-end  align-items-center">
-                       <img class="img-ico-fb mr-5" src="../exportados/recursos_klk_landing-31.png" alt="facebook-ico">
-                       <img class="img-ico mr-5" src="../exportados/recursos_klk_landing-32.png" alt="instagram-ico">
-                       <img class="img-ico mr-5" src="../exportados/recursos_klk_landing-33.png" alt="tiwtter-ico">
+                     <div class="d-flex flex-row col-lg-8 col-sm-8 col-xs-8  justify-content-end  align-items-center">
+                       <img class="img-ico-fb margen-ico" src="../exportados/recursos_klk_landing-31.png" alt="facebook-ico">
+                       <img class="img-ico margen-ico" src="../exportados/recursos_klk_landing-32.png" alt="instagram-ico">
+                       <img class="img-ico margen-ico" src="../exportados/recursos_klk_landing-33.png" alt="tiwtter-ico">
                        <img class="img-ico" src="../exportados/recursos_klk_landing-34.png" alt="linkedin-ico">
                      </div>
                   </div>
