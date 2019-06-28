@@ -19,7 +19,12 @@
 }
 
 .color-bg-morado {
-  background-color: #7a4c90;
+  background: #393172;
+  /* fallback for old browsers */
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-gradient(linear, left top, left bottom, from(#2D2E6F), to(#412d6f));
+  background: linear-gradient(to bottom, #2D2E6F, #412d6f);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .color-bg-blanco {
@@ -43,40 +48,7 @@
 }
 
 .img-logo {
-  width: 230px;
-}
-
-.bg-img-tienda {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 1350px;
-  height: 800px;
-  background-image: url("../../exportados/recursos_klk_landing-02.png");
-  background-position: center;
-  background-size: cover;
-}
-
-.bg-tienda {
-  background-color: #353070;
-}
-
-.formulario-margin {
-  margin-top: 100px;
-  margin-left: 3rem;
-}
-
-form {
-  padding: 20px 20px 20px 20px;
-}
-
-.margin-text {
-  margin-top: 28rem;
-  margin-left: 33rem;
-}
-
-.space-text {
-  letter-spacing: 1px;
+  width: 150px;
 }
 
 .text-50 {
@@ -139,8 +111,44 @@ form {
   font-family: 'Poppins-Regular';
 }
 
+.bg-img-tienda {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 600px;
+  height: 700px;
+  background-image: url("../../exportados/recursos_klk_landing-02.png");
+  background-position: center;
+  background-position-x: 600rem;
+  background-position-y: 0px;
+  background-size: 600px 700px;
+}
+
+.bg-tienda {
+  background-color: #353070;
+}
+
+.formulario-margin {
+  margin-top: 30px;
+  margin-left: 3rem;
+  margin-bottom: 90px;
+}
+
+form {
+  padding: 20px 20px 20px 20px;
+}
+
+.margin-text {
+  margin-top: 460px;
+  margin-left: 50px;
+}
+
+.space-text {
+  letter-spacing: 1px;
+}
+
 .img-text-white {
-  width: 360px;
+  width: 200px;
 }
 
 .btn-cotizar {
@@ -171,6 +179,13 @@ form {
   margin: 0%;
 }
 
+.text-cliente {
+  margin-top: 800px;
+  margin-right: 30px;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
 .input-text::-webkit-input-placeholder {
   color: #f8f8f881;
   font-size: 18px;
@@ -197,30 +212,7 @@ form {
   font-size: 18px;
 }
 
-.img-label-k360 {
-  width: 90px;
-}
-
-.img-label-go {
-  width: 90px;
-  margin-bottom: 45px;
-}
-
-.space-label-k360 {
-  padding: 5px 20px 5px 20px;
-  border: #007fbe;
-  background-color: #007fbe;
-}
-
-.space-label-go {
-  padding: 5px 15px 5px 20px;
-  border: #007fbe;
-  background-color: #007fbe;
-  margin-right: 20px;
-}
-
 input[type='radio'] {
-  position: absolute;
   visibility: visible;
   background-color: #d24471;
   border: 2px solid #f8f8f8;
@@ -233,6 +225,28 @@ input[type=radio]:checked ~ .check {
 
 input[type=radio]:checked ~ .check::before {
   background: #d24471;
+}
+
+.img-label-k360 {
+  width: 90px;
+}
+
+.img-label-go {
+  width: 90px;
+  margin-bottom: 45px;
+}
+
+.space-label-k360 {
+  padding: 5px 32px 5px 32px;
+  border: #007fbe;
+  background-color: #007fbe;
+}
+
+.space-label-go {
+  padding: 5px 32px 5px 32px;
+  border: #007fbe;
+  background-color: #007fbe;
+  margin-right: 20px;
 }
 
 .img-carrusel {
@@ -254,11 +268,8 @@ input[type=radio]:checked ~ .check::before {
   display: none;
 }
 
-.text-cliente {
-  margin-top: 120px;
-  margin-left: 500px;
-  font-size: 18px;
-  letter-spacing: 4px;
+.on {
+  display: block;
 }
 
 @-webkit-keyframes scroll {
@@ -295,7 +306,7 @@ input[type=radio]:checked ~ .check::before {
 .slider::before, .slider::after {
   content: "";
   height: 100px;
-  position: absolute;
+  position: relative;
   width: 200px;
   z-index: 2;
 }
@@ -427,19 +438,26 @@ input[type=radio]:checked ~ .check::before {
   border-top: #dbdbdb solid 1px;
   background-color: #f8f8f8;
   width: 98.6vw;
-  height: 296px;
+  height: 340px;
   background-size: 100vw 100px;
 }
 
 .img-landings {
   width: 600px;
-  padding-bottom: 1rem;
+  padding-bottom: 3rem;
   float: top;
-  height: 310px;
+  height: 387px;
+}
+
+.img-landings-2 {
+  width: 200px;
+  padding-bottom: 3rem;
+  float: top;
+  height: 387px;
 }
 
 .img-nosotros-morado {
-  width: 200px;
+  width: 250px;
 }
 
 .div-sección-6 {
@@ -464,11 +482,80 @@ input[type=radio]:checked ~ .check::before {
 .img-next {
   width: 20px;
   height: 25px;
-  margin-right: 5px;
 }
 
 .mg-top-sec-7 {
   margin-top: 4rem;
-  margin-left: 5%;
+  margin-left: 9%;
+}
+
+.img-ico {
+  width: 30px;
+  height: 30px;
+}
+
+.img-ico-fb {
+  width: 20px;
+  height: 30px;
+}
+
+.img-logo-1 {
+  width: 300px;
+}
+
+.footer {
+  padding: 50px;
+}
+
+@media screen and (min-width: 1150px) {
+  .bg-img-tienda {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 930px;
+    height: 800px;
+    background-image: url("../../exportados/recursos_klk_landing-02.png");
+    background-position: center;
+    background-size: cover;
+    background-size: 1320px 800px;
+    background-repeat: no-repeat;
+    background-position-x: 2px;
+  }
+  .formulario-margin {
+    margin-top: 100px;
+    margin-left: 3rem;
+  }
+  .img-logo {
+    width: 300px;
+  }
+  .color-bg-morado {
+    background: #393172;
+    /* fallback for old browsers */
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-gradient(linear, left top, left bottom, from(#663374), to(#2E306F));
+    background: linear-gradient(to bottom, #663374, #2E306F);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+  .margin-text {
+    margin-top: 34rem;
+    margin-left: 11rem;
+  }
+  .text-cliente {
+    margin-top: 150px;
+    margin-left: 150px;
+    font-size: 18px;
+    letter-spacing: 4px;
+  }
+  .space-label-k360 {
+    padding: 5px 20px 5px 20px;
+    border: #007fbe;
+    background-color: #007fbe;
+  }
+  .space-label-go {
+    padding: 5px 15px 5px 20px;
+    border: #007fbe;
+    background-color: #007fbe;
+    margin-right: 20px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
