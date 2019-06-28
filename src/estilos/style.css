@@ -115,7 +115,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 600px;
   height: 700px;
   background-image: url("../../exportados/recursos_klk_landing-02.png");
   background-position: center;
@@ -152,7 +151,7 @@ form {
 }
 
 .btn-cotizar {
-  padding: 6px 85px 6px 85px;
+  padding: 6px 82px 6px 82px;
   border: transparent;
   font-size: 18px;
   cursor: pointer;
@@ -199,6 +198,7 @@ form {
 .text-cliente-2 {
   font-size: 18px;
   letter-spacing: 4px;
+  margin-right: 3rem;
 }
 
 .input-text::-webkit-input-placeholder {
@@ -252,13 +252,13 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .space-label-k360 {
-  padding: 5px 21px 5px 21px;
+  padding: 5px 14px 5px 14px;
   border: #007fbe;
   background-color: #007fbe;
 }
 
 .space-label-go {
-  padding: 5px 21px 5px 21px;
+  padding: 5px 14px 5px 14px;
   border: #007fbe;
   background-color: #007fbe;
   margin-right: 20px;
@@ -369,7 +369,7 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .img-k360-c {
-  width: 300px;
+  width: 250px;
   margin-left: 70px;
 }
 
@@ -412,7 +412,6 @@ input[type=radio]:checked ~ .check::before {
 
 .bg-morado-menor {
   background-image: url("../../exportados/recursos_klk_landing-04.png");
-  width: 98.6vw;
   height: 300px;
   background-size: 1366px 300px;
 }
@@ -465,7 +464,8 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .text-carrusel {
-  font-size: 15px;
+  font-size: 12px;
+  text-align: center;
 }
 
 .bg-pixel-izquierdo {
@@ -494,10 +494,14 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .img-landings-2 {
-  width: 200px;
+  width: 160px;
   padding-bottom: 3rem;
   float: top;
   height: 387px;
+}
+
+.text-landings {
+  font-size: 11px;
 }
 
 .img-nosotros-morado {
@@ -544,7 +548,7 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .img-logo-1 {
-  width: 180px;
+  width: 120px;
 }
 
 .margen-ico {
@@ -612,6 +616,12 @@ input[type=radio]:checked ~ .check::before {
   .img-text-white {
     width: 380px;
   }
+  .btn-cotizar {
+    padding: 6px 91px 6px 91px;
+    border: transparent;
+    font-size: 18px;
+    cursor: pointer;
+  }
   .slider {
     background: #fdfdfddc;
     margin: auto;
@@ -670,7 +680,6 @@ input[type=radio]:checked ~ .check::before {
   }
   .bg-morado-menor {
     background-image: url("../../exportados/recursos_klk_landing-04.png");
-    width: 98.6vw;
     height: 250px;
     background-size: 1366px 250px;
   }
@@ -724,6 +733,7 @@ input[type=radio]:checked ~ .check::before {
   }
   .text-carrusel {
     font-size: 20px;
+    text-align: center;
   }
   .bg-pixel-izquierdo {
     background-image: url("../../exportados/recursos_klk_landing-41.png");
@@ -766,6 +776,9 @@ input[type=radio]:checked ~ .check::before {
     border: transparent;
     font-size: 18px;
     cursor: pointer;
+  }
+  .text-landings {
+    font-size: 15px;
   }
   .bg-morado-mayor {
     background-image: url("../../exportados/recursos_klk_landing-05.png");

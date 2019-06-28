@@ -89,7 +89,7 @@
 // seccion 1 
 .bg-img-tienda {
     display: flex;
-    width: 600px;
+    // width: 600px;
     height: 700px;
     background-image: url('../../exportados/recursos_klk_landing-02.png');
     background-position: center;
@@ -126,7 +126,7 @@ form {
 }
 
 .btn-cotizar {
-    padding: 6px 85px 6px 85px;
+    padding:  6px 82px 6px 82px;
     border: transparent;
     font-size: 18px;
     cursor: pointer;
@@ -168,6 +168,7 @@ form {
 .text-cliente-2{
     font-size:18px;
     letter-spacing: 4px;
+    margin-right: 3rem;
     }
 
 .input-text::placeholder{
@@ -203,13 +204,13 @@ input[type=radio]:checked ~ .check {
     margin-bottom: 45px;
 }
 .space-label-k360 {
-    padding: 5px 21px 5px 21px;
+    padding: 5px 14px 5px 14px;
     border: #007fbe;
     background-color: #007fbe;
 }
 
 .space-label-go {
-    padding: 5px 21px 5px 21px;
+    padding: 5px 14px 5px 14px;
     border: #007fbe;
     background-color: #007fbe;
     margin-right: 20px;
@@ -304,7 +305,7 @@ $animationSpeed: 40s;
     display: none;
 }
 .img-k360-c {
-    width: 300px;
+    width: 250px;
     margin-left: 70px;
 }
 .img-lista-texto {
@@ -345,7 +346,7 @@ $animationSpeed: 40s;
 // seccion 4
 .bg-morado-menor{
     background-image: url('../../exportados/recursos_klk_landing-04.png');
-    width: 98.6vw;
+    // width: 100vw;
     height: 300px;
     background-size: 1366px 300px;
 }
@@ -392,7 +393,8 @@ $animationSpeed: 40s;
     font-size: 27px;
 }
 .text-carrusel{
-    font-size: 15px;
+    font-size: 12px;
+    text-align: center
 }
 .bg-pixel-izquierdo {
     background-image: url('../../exportados/recursos_klk_landing-41.png');
@@ -419,10 +421,13 @@ $animationSpeed: 40s;
     display: none;
 }
 .img-landings-2{
-    width: 200px;
+    width: 160px;
     padding-bottom: 3rem;
     float: top;
     height: 387px;
+}
+.text-landings{
+    font-size: 11px;
 }
 .img-nosotros-morado{
     width: 200px;
@@ -463,11 +468,12 @@ $animationSpeed: 40s;
     height: 20px;
 }
 .img-logo-1 {
-    width: 180px;
+    width: 120px;
 }
 .margen-ico{
     margin-right: 20px;
 }
+
 .footer{
     padding: 50px;
 }
@@ -527,6 +533,14 @@ $animationSpeed: 40s;
     .img-text-white{
         width: 380px;
     }
+    .btn-cotizar {
+        padding: 6px 91px 6px 91px;
+        border: transparent;
+        font-size: 18px;
+        cursor: pointer;    
+    }
+
+ // carrusel
     // Styling
 .slider {
 	background: #fdfdfddc;
@@ -535,7 +549,6 @@ $animationSpeed: 40s;
 	position: relative;
 	height: 100px;
 	width: 960px;
-	
 }
 
 .img-empresario {
@@ -593,7 +606,7 @@ $animationSpeed: 40s;
 // seccion 4
 .bg-morado-menor{
     background-image: url('../../exportados/recursos_klk_landing-04.png');
-    width: 98.6vw;
+    // width: 100vw;
     height: 250px;
     background-size: 1366px 250px;
 }
@@ -610,8 +623,6 @@ $animationSpeed: 40s;
     margin-right: 150px;
     margin-top: 40px
 }
-
-
 .margin-div-text-ecommerce {
     margin-left: 18rem;
     margin-top: 12px;
@@ -653,6 +664,7 @@ $animationSpeed: 40s;
 }
 .text-carrusel{
     font-size: 20px;
+    text-align: center
 }
 .bg-pixel-izquierdo {
     background-image: url('../../exportados/recursos_klk_landing-41.png');
@@ -696,6 +708,9 @@ $animationSpeed: 40s;
     border: transparent;
     font-size: 18px;
     cursor: pointer;
+}
+.text-landings{
+    font-size: 15px;
 }
 // Seccion 7
 .bg-morado-mayor{
