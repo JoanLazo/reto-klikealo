@@ -359,6 +359,7 @@ input[type=radio]:checked ~ .check::before {
 
 .img-empresario {
   width: 350px;
+  height: 400px;
   margin-left: 1rem;
   margin-top: 10px;
 }
@@ -448,6 +449,7 @@ input[type=radio]:checked ~ .check::before {
 
 .img-empresaria {
   width: 400px;
+  height: 500px;
   margin-top: 4rem;
 }
 
@@ -632,7 +634,7 @@ input[type=radio]:checked ~ .check::before {
   }
   .img-empresario {
     width: 450px;
-    height: 550px;
+    height: 500px;
     margin-left: 10rem;
     margin-top: 45px;
   }
@@ -719,6 +721,7 @@ input[type=radio]:checked ~ .check::before {
   }
   .img-empresaria {
     width: 500px;
+    height: 550px;
     margin-top: 3rem;
   }
   .div-margin-left {
