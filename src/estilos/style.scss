@@ -203,13 +203,13 @@ input[type=radio]:checked ~ .check {
     margin-bottom: 45px;
 }
 .space-label-k360 {
-    padding: 5px 32px 5px 32px;
+    padding: 5px 21px 5px 21px;
     border: #007fbe;
     background-color: #007fbe;
 }
 
 .space-label-go {
-    padding: 5px 32px 5px 32px;
+    padding: 5px 21px 5px 21px;
     border: #007fbe;
     background-color: #007fbe;
     margin-right: 20px;
@@ -290,8 +290,12 @@ $animationSpeed: 40s;
 	}
 }
 // seccion 3
+.texto-360{
+    font-size: 10px;
+    margin-left: 10px;
+}
 .img-empresario {
-    width: 450px;
+    width: 350px;
     margin-left: 1rem;
     margin-top: 10px;
 }
@@ -304,8 +308,9 @@ $animationSpeed: 40s;
     margin-left: 70px;
 }
 .img-lista-texto {
-    width: 450px;
+    width: 350px;
     margin-bottom: 30px;
+    margin-left: 50px;
 }
 .img-cms{
     width: 180px;
@@ -317,8 +322,11 @@ $animationSpeed: 40s;
 }
 
 .margin-b {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 0%
+}
+.text-potencia{
+    font-size: 15px;
 }
 
 .bg-pixel-derecho {
@@ -342,7 +350,7 @@ $animationSpeed: 40s;
     background-size: 1366px 300px;
 }
 .img-text-ecommerce {
-  width: 300px;
+  width: 230px;
   margin-top: 3rem;
 }
 .margin-btn {
@@ -366,7 +374,7 @@ $animationSpeed: 40s;
     display: none
 }
 .img-clikeago-c {
-    width: 350px;
+    width: 250px;
     margin-left: 25px;
 }
 .img-empresaria {
@@ -379,10 +387,9 @@ $animationSpeed: 40s;
 }
 .img-text-icons{
     width: 280px;
-    margin-left: 3rem;
 }
 .text-integraciones{
-    font-size: 35px;
+    font-size: 27px;
 }
 .text-carrusel{
     font-size: 15px;
@@ -418,7 +425,7 @@ $animationSpeed: 40s;
     height: 387px;
 }
 .img-nosotros-morado{
-    width: 250px;
+    width: 200px;
 }
 .div-sección-6 {
     margin-left: 1%;
@@ -533,11 +540,15 @@ $animationSpeed: 40s;
 
 .img-empresario {
     width: 450px;
+    height: 550px;
     margin-left: 10rem;
     margin-top: 45px;
 }
+.text-potencia{
+    font-size: 20px;
+}
 .img-k360 {
-    width: 300px;
+    width: 350px;
      display: block
 }
 .img-k360-c {
@@ -545,8 +556,9 @@ $animationSpeed: 40s;
      display: none
 }
 .img-lista-texto {
-    width: 450px;
+    width: 500px;
     margin-bottom: 30px;
+    margin-right: 20px;
 }
 .img-cms{
     width: 180px;
@@ -558,7 +570,7 @@ $animationSpeed: 40s;
 }
 
 .margin-b {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 0%
 }
 
@@ -573,6 +585,10 @@ $animationSpeed: 40s;
 
 .mg-text-left {
     margin-left: 31%;
+}
+.texto-360{
+    font-size: 15px;
+    margin-left: 35px;
 }
 // seccion 4
 .bg-morado-menor{

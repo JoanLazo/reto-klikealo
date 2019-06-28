@@ -252,13 +252,13 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .space-label-k360 {
-  padding: 5px 32px 5px 32px;
+  padding: 5px 21px 5px 21px;
   border: #007fbe;
   background-color: #007fbe;
 }
 
 .space-label-go {
-  padding: 5px 32px 5px 32px;
+  padding: 5px 21px 5px 21px;
   border: #007fbe;
   background-color: #007fbe;
   margin-right: 20px;
@@ -352,8 +352,13 @@ input[type=radio]:checked ~ .check::before {
   width: 250px;
 }
 
+.texto-360 {
+  font-size: 10px;
+  margin-left: 10px;
+}
+
 .img-empresario {
-  width: 450px;
+  width: 350px;
   margin-left: 1rem;
   margin-top: 10px;
 }
@@ -369,8 +374,9 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .img-lista-texto {
-  width: 450px;
+  width: 350px;
   margin-bottom: 30px;
+  margin-left: 50px;
 }
 
 .img-cms {
@@ -383,8 +389,12 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .margin-b {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
   margin-left: 0%;
+}
+
+.text-potencia {
+  font-size: 15px;
 }
 
 .bg-pixel-derecho {
@@ -408,7 +418,7 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .img-text-ecommerce {
-  width: 300px;
+  width: 230px;
   margin-top: 3rem;
 }
 
@@ -433,7 +443,7 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .img-clikeago-c {
-  width: 350px;
+  width: 250px;
   margin-left: 25px;
 }
 
@@ -448,11 +458,10 @@ input[type=radio]:checked ~ .check::before {
 
 .img-text-icons {
   width: 280px;
-  margin-left: 3rem;
 }
 
 .text-integraciones {
-  font-size: 35px;
+  font-size: 27px;
 }
 
 .text-carrusel {
@@ -492,7 +501,7 @@ input[type=radio]:checked ~ .check::before {
 }
 
 .img-nosotros-morado {
-  width: 250px;
+  width: 200px;
 }
 
 .div-sección-6 {
@@ -613,11 +622,15 @@ input[type=radio]:checked ~ .check::before {
   }
   .img-empresario {
     width: 450px;
+    height: 550px;
     margin-left: 10rem;
     margin-top: 45px;
   }
+  .text-potencia {
+    font-size: 20px;
+  }
   .img-k360 {
-    width: 300px;
+    width: 350px;
     display: block;
   }
   .img-k360-c {
@@ -625,8 +638,9 @@ input[type=radio]:checked ~ .check::before {
     display: none;
   }
   .img-lista-texto {
-    width: 450px;
+    width: 500px;
     margin-bottom: 30px;
+    margin-right: 20px;
   }
   .img-cms {
     width: 180px;
@@ -636,7 +650,7 @@ input[type=radio]:checked ~ .check::before {
     margin-top: 50px;
   }
   .margin-b {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
     margin-left: 0%;
   }
   .bg-pixel-derecho {
@@ -649,6 +663,10 @@ input[type=radio]:checked ~ .check::before {
   }
   .mg-text-left {
     margin-left: 31%;
+  }
+  .texto-360 {
+    font-size: 15px;
+    margin-left: 35px;
   }
   .bg-morado-menor {
     background-image: url("../../exportados/recursos_klk_landing-04.png");
